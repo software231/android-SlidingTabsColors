@@ -21,6 +21,7 @@
       android:id="@+id/sample_main_layout">
 
     <ViewAnimator
+        android:visibility="gone"
           android:id="@+id/sample_output"
           android:layout_width="match_parent"
           android:layout_height="0px"
@@ -51,6 +52,7 @@
     </ViewAnimator>
 
     <View
+        android:visibility="gone"
           android:layout_width="match_parent"
           android:layout_height="1dp"
           android:background="@android:color/darker_gray" />
